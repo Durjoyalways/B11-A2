@@ -207,6 +207,7 @@
  margin-top: 35px;
  border-radius: 19px;
 width: 410px;
+box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 
 
@@ -217,6 +218,7 @@ width: 410px;
     margin-top: 35px;
     border-radius: 19px;
     width: 410px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 .curriculam-card-3{
@@ -225,6 +227,7 @@ width: 410px;
     margin-top: 35px;
     border-radius: 19px;
     width: 410px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card-img{
     padding:52px 115px 32px 115px ;
@@ -279,6 +282,26 @@ width: 410px;
     color: rgba(135, 0, 255, 1);
 
 
+}
+
+
+.symble{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+.s-1{
+    background-color:orange;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+.s-2{
+    background-color:orange;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
 }
 
 /* responsive styles */
@@ -389,5 +412,56 @@ width: 410px;
       
     
     }
+
+    .curriculam-card-container{
+        flex-direction: column;
+        flex: 1;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+       
+     
+     }
+
+     .curriculam-title{
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 60px;
+        color:rgba(0, 0, 0, 1) ;
+        margin-bottom: 0;
+    
+    }
+     .curriculam-card-1{
+        margin-left: 0;
+     background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) , #FFFFFF 50%);
+     margin-top: 20px;
+     border-radius: 19px;
+    width: 410px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    
+    
+    
+    }
+
+    .curriculam-card-2{
+        background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) , #FFFFFF 50%);
+        margin-top: 0;
+        border-radius: 19px;
+        width: 410px;
+        box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    }
+    
+
+    
+.curriculam-card-3{
+    margin-right: 0;
+    background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), #FFFFFF 50%);
+    margin-top: 0;
+    border-radius: 19px;
+    width: 410px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
 
 }
