@@ -290,6 +290,8 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     justify-content: center;
     gap: 15px;
     margin-top: 80px;
+    margin-bottom: 60px;
+
 }
 .s-1{
     background-color:orange;
@@ -304,6 +306,60 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     color: white;
 }
 
+
+/* tories style */
+
+.flex-container{
+    display: flex;
+    flex: 1;
+   
+    
+}
+.stories-card-1{
+    background-color: white;
+    width: 540px;
+    height: 630px;
+    margin-left: 320px;
+}
+.card-img{
+    width: 540px;
+    height: 337px;
+    padding: 0;
+    
+    position: relative;
+    left: 0;
+    top: 0;
+
+
+}
+
+.stories-card-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+}
+
+.stories-title{
+    text-align: center;
+    font-size: 45px;
+    color: #000000;
+    margin-top: 70px;
+    margin-bottom: 80px;
+
+}
+
+.stories-container{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-container{
+   
+    background-image:linear-gradient(to bottom, #FFFFFF 50%, rgba(254, 163, 1, 1));
+   
+   
+
+}
 /* responsive styles */
 @media screen and (max-width:576px) {
     .logo-name {
@@ -427,7 +483,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
         text-align: center;
         margin-top: 40px;
         font-weight: bold;
-        font-size: 27px;
+        font-size: 32px;
         line-height: 60px;
         color:rgba(0, 0, 0, 1) ;
         margin-bottom: 0;
@@ -462,6 +518,13 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 19px;
     width: 410px;
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.symble{
+    display: none;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
 }
 
 }
