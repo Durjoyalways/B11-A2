@@ -321,11 +321,11 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     height: 630px;
     margin-left: 320px;
 }
-.card-img{
+.story-card-img{
     width: 540px;
     height: 337px;
     padding: 0;
-    
+
     position: relative;
     left: 0;
     top: 0;
