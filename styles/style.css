@@ -310,7 +310,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 
-/* tories style */
+/* stories style */
 
 .flex-container{
     display: flex;
@@ -470,7 +470,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    margin-bottom: 60px;
+   
 
 }
 .view-all-btn{
@@ -479,22 +479,105 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     padding: 10px 60px;
     border: none;
     border-radius: 12px;
+    margin-bottom: 60px;
    
 
 }
 
 .stories-container{
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(#FFFFFF, #fdcb6e);
+   
 }
+
 .flex-container{
+    background-image: url(../images/bg.png);
    
-    background-image:linear-gradient(to bottom, #FFFFFF 50%, rgba(254, 163, 1, 1));
    
+}
+
+/* footer style */
+.footer-container{
+    background-color:rgba(1, 172, 253, 1) ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    top: 0;
    
 
 }
+
+.education-title{
+    display: inline-block;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 124px;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+}
+.school-logo{
+    width: 90px;
+    height: 92px;
+   position: relative;
+   top: 5px;
+
+}
+.edication-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 180px;
+}
+.education-content{
+    margin-left: 320px;
+  
+    width: 400px;
+    height: auto;
+
+
+}
+
+.about-content{
+    margin-top: 115px;
+    margin-left: 190px;
+
+}
+.about-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+.about-title-1{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.touch-title{
+    margin-top: 135px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.touch-img{
+   
+    margin-right: 10px;
+
+}
+.keep-in-touch-content{
+    margin-right: 320px;
+    
+}
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
     .logo-name {
@@ -535,6 +618,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
+        border: 1px solid orange;
     }
 
     .responsive-icon{
@@ -657,8 +741,8 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card-img{
     
- position: relative;
- right: 50px;
+    padding:52px 115px 32px 115px ;
+ 
 
 }
 .symble{
@@ -668,6 +752,196 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     margin-top: 80px;
 }
 
+
+/* story section responsive */
+.stories-card-1{
+    display: none;
+    background-color: white;
+    width: 540px;
+    height: 630px;
+    margin-left: 320px;
+    border-radius: 16px;
+
+}
+
+.stories-card-2{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    width:calc(100% - 20px) ;
+}
+
+.card-A{
+    width: 220px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+.card-A-img{
+    object-fit: cover;
+    width: 220px;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+
+}
+
+.card-A-btn{
+    background-color:rgba(149, 178, 38, 1) ;
+    border-radius: 48px;
+    padding: 6px 11px;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 9px;
+
+}
+.card-B-btn{
+    background-color: rgba(93, 88, 240, 1);
+    border-radius: 48px;
+    padding: 6px 11px;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 9px;
+
+}
+
+.card-C-btn{
+    background-color:rgba(149, 178, 38, 1) ;
+    border-radius: 48px;
+    padding: 6px 11px;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 9px;
+
+}
+.card-D-btn{
+    background-color:rgba(149, 178, 38, 1) ;
+    border-radius: 48px;
+    padding: 6px 11px;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 9px;
+}
+.card-A-title{
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 17px;
+    color: #000000;
+   margin-right: 36px;
+
+    margin-bottom: 19px;
+    margin-left: 22px;
+
+}
+.stories-title{
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.footer-container{
+    background-color:rgba(1, 172, 253, 1) ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    top: 0;
+   
+
+}
+
+.education-title{
+    display: inline-block;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 124px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+
+}
+.school-logo{
+    width: 75px;
+    height: 75px;
+   position: relative;
+   top: 5px;
+
+}
+.edication-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 180px;
+}
+.education-content{
+    margin-left: 16px;
+  position: relative;
+  top: -50px;
+    width: 400px;
+    height: auto;
+
+
+}
+
+.about-content{
+    margin-top: -220px;
+    margin-left: 20px;
+
+}
+.about-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+.about-title-1{
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.touch-title{
+    margin-top: 30px;
+    margin-bottom: 36px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.touch-img{
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 60px;
+
+
+}
+.keep-in-touch-content{
+    margin-right: 0;
+    margin-left: 16px;
+    
+}
 
 
 }
