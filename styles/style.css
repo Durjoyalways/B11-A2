@@ -132,8 +132,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 50;
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-left: 430px;
+    margin-right: 430px;
     
    
 
@@ -141,7 +141,7 @@
 
 .banner-title{
     font-weight: bold;
-    font-size: 56px;
+    font-size: 60px;
     line-height: 61px;
     
 
@@ -157,7 +157,7 @@
 .banner-btn{
     background-color: black;
     color: white;
-    padding:10px 47px;
+    padding:15px 50px;
     margin-top: 24px;
     border: none;
     border-radius: 12px;
@@ -186,7 +186,7 @@
     text-align: center;
     margin-top: 70px;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 50px;
     line-height: 60px;
     color:rgba(0, 0, 0, 1) ;
     margin-bottom: 85px;
@@ -196,17 +196,18 @@
 .curriculam-card-container{
    display: flex;
    flex: 1;
-   gap: 35px;
+   gap: 50px;
   
 
 }
 
 .curriculam-card-1{
-    margin-left: 320px;
+    margin-left: 430px;
  background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) , #FFFFFF 50%);
  margin-top: 35px;
  border-radius: 19px;
-width: 410px;
+width: 460px;
+height: auto;
 box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 
@@ -217,20 +218,22 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) , #FFFFFF 50%);
     margin-top: 35px;
     border-radius: 19px;
-    width: 410px;
+    width: 460px;
+    height: auto;
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 .curriculam-card-3{
-    margin-right: 320px;
+    margin-right: 430px;
     background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), #FFFFFF 50%);
     margin-top: 35px;
     border-radius: 19px;
-    width: 410px;
+    width: 460px;
+    height: auto;
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card-img{
-    padding:52px 115px 32px 115px ;
+    padding:52px 150px 32px 150px ;
 }
 .card-title{
     text-align: center;
@@ -338,7 +341,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 }
 
-.card-btn{
+.story-card-btn{
     background-color:rgba(60, 216, 232, 1) ;
     padding: 15px 18px;
     border: none;
@@ -349,7 +352,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     top: -25px;
     
 }
-.card-title{
+.story-card-title{
     font-weight: bold;
     font-size: 25px;
     line-height: 38px;
@@ -360,7 +363,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
    margin-right: 38px;
 
 }
-.card-description{
+.story-card-description{
     font-size: 15px;
     font-weight: 500;
     line-height: 28px;
@@ -373,10 +376,28 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 .stories-card-2{
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(2,1fr);
     margin-left: 20px;
 }
 
+.card-A{
+    width: 290px;
+    height: 301px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+
+
+.card-A-img{
+    width: 290px;
+    height: 177px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+
+}
 .stories-title{
     text-align: center;
     font-size: 45px;
@@ -399,10 +420,11 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 }
 /* responsive styles */
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
     .logo-name {
         display: none;
     }
+
     .nav-menu {
         display: none;
 
@@ -532,7 +554,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
      background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) , #FFFFFF 50%);
      margin-top: 20px;
      border-radius: 19px;
-    width: 410px;
+    width: calc(100% - 10%);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     
     
@@ -543,7 +565,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
         background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) , #FFFFFF 50%);
         margin-top: 0;
         border-radius: 19px;
-        width: 410px;
+        width: calc(100% - 10%);
         box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     }
     
@@ -554,7 +576,7 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), #FFFFFF 50%);
     margin-top: 0;
     border-radius: 19px;
-    width: 410px;
+    width: calc(100% - 10%);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
