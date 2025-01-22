@@ -320,15 +320,53 @@ box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     width: 540px;
     height: 630px;
     margin-left: 320px;
+    border-radius: 16px;
+
 }
 .story-card-img{
     width: 540px;
     height: 337px;
     padding: 0;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
 
     position: relative;
     left: 0;
     top: 0;
+   
+
+
+}
+
+.card-btn{
+    background-color:rgba(60, 216, 232, 1) ;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 48px;
+    color: white;
+    margin-left: 39px;
+    position: relative;
+    top: -25px;
+    
+}
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+  
+    margin-left:38px ;
+   margin-bottom: 30px;
+   margin-right: 38px;
+
+}
+.card-description{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(102, 102, 102, 1);
+   
+  
 
 
 }
